@@ -11,8 +11,7 @@ namespace WebApplication1
             : base("name=Model1")
         {
         }
-
-        public virtual DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
+        
         public virtual DbSet<Authors> Authors { get; set; }
         public virtual DbSet<Books> Books { get; set; }
         public virtual DbSet<TakedBooks> TakedBooks { get; set; }
